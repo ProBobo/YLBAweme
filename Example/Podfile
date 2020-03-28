@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YLBAweme_Example' do
+  pod 'YLBAweme', :path => '../'
+
+  target 'YLBAweme_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
