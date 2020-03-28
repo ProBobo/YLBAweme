@@ -1,0 +1,6 @@
+framework module YLBAweme {
+  umbrella header "YLBAweme-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,7 +12,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YULIBOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YULIBOAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* YULIBOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YULIBOViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -38,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0CA332D594C99FB701746F25 /* Pods-YLBAweme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBAweme_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLBAweme_Tests/Pods-YLBAweme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		23CB034B391573E73A7B3B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23CB034B391573E73A7B3B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		533C6706EB69472406111055 /* Pods_YLBAweme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBAweme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YLBAweme_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBAweme_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,8 +47,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YLBAweme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLBAweme-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YULIBOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YULIBOAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YULIBOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YULIBOAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* YULIBOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YULIBOViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* YULIBOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YULIBOViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -62,8 +59,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A39F52E4D651002B0C86CBAB /* Pods-YLBAweme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBAweme_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBAweme_Tests/Pods-YLBAweme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A8CECBAA1C6FE502B7B35DE8 /* YLBAweme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLBAweme.podspec; path = ../YLBAweme.podspec; sourceTree = "<group>"; };
-		B37BFC4BAB112BD6FCF9644E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8CECBAA1C6FE502B7B35DE8 /* YLBAweme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBAweme.podspec; path = ../YLBAweme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B37BFC4BAB112BD6FCF9644E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B79FFF53901508CCA6509BFF /* Pods_YLBAweme_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBAweme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAD422135B6A08843BB8D52 /* Pods-YLBAweme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBAweme_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBAweme_Example/Pods-YLBAweme_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7C9C5E71A873D9AFF770368 /* Pods-YLBAweme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBAweme_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBAweme_Example/Pods-YLBAweme_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,8 +129,6 @@
 		6003F593195388D20070C39A /* Example for YLBAweme */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YULIBOAppDelegate.h */,
-				6003F59D195388D20070C39A /* YULIBOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YULIBOViewController.h */,
 				6003F5A6195388D20070C39A /* YULIBOViewController.m */,
@@ -193,7 +188,6 @@
 				0CA332D594C99FB701746F25 /* Pods-YLBAweme_Tests.debug.xcconfig */,
 				A39F52E4D651002B0C86CBAB /* Pods-YLBAweme_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,9 +238,9 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = YULIBO;
+				CLASSPREFIX = YLB;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = ProBobo;
+				ORGANIZATIONNAME = "余礼钵";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -258,6 +252,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +320,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YLBAweme_Example/Pods-YLBAweme_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YLBAweme/YLBAweme.framework",
+				"${BUILT_PRODUCTS_DIR}/YLBAwemeResource/YLBAwemeResource.framework",
+				"${BUILT_PRODUCTS_DIR}/YLBCommon/YLBCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/YLBModule/YLBModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBAweme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBAwemeResource.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YULIBOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YULIBOViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

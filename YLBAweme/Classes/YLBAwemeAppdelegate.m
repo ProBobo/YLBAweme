@@ -1,14 +1,14 @@
 //
-//  YULIBOAppDelegate.m
-//  YLBAweme
+//  YLBAwemeAppdelegate.m
+//  YLBAweme_Example
 //
-//  Created by ProBobo on 03/28/2020.
-//  Copyright (c) 2020 ProBobo. All rights reserved.
+//  Created by yulibo on 2020/3/28.
+//  Copyright © 2020 余礼钵. All rights reserved.
 //
 
-#import "YULIBOAppDelegate.h"
+#import "YLBAwemeAppdelegate.h"
 
-@implementation YULIBOAppDelegate
+@implementation YLBAwemeAppdelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

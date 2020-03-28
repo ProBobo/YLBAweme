@@ -7,6 +7,7 @@
 //
 
 #import "YULIBOViewController.h"
+#import <YLBCommon/YLBCommon.h>
 
 @interface YULIBOViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    [label ylb_becomeCenterInSuperView:self.view];
+    label.font = [UIFont boldSystemFontOfSize:30];
+    label.text = @"开发中";
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning

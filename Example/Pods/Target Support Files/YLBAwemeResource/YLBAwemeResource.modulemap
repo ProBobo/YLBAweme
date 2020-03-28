@@ -1,0 +1,6 @@
+framework module YLBAwemeResource {
+  umbrella header "YLBAwemeResource-umbrella.h"
+
+  export *
+  module * { export * }
+}

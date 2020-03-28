@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "YULIBOAppDelegate.h"
+#import <YLBAweme/YLBAweme.h>
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([YULIBOAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([YLBAwemeAppdelegate class]));
     }
 }
