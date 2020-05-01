@@ -1,25 +1,25 @@
 //
-//  YULIBOViewController.m
-//  YLBAweme
+//  YLBAwemeHomeController.m
+//  YLBAweme_Example
 //
-//  Created by ProBobo on 03/28/2020.
-//  Copyright (c) 2020 ProBobo. All rights reserved.
+//  Created by yulibo on 2020/5/2.
+//  Copyright © 2020 余礼钵. All rights reserved.
 //
 
-#import "YULIBOViewController.h"
+#import "YLBAwemeHomeController.h"
 #import <YLBCommon/YLBCommon.h>
 
-@interface YULIBOViewController ()
+@interface YLBAwemeHomeController ()
 
 @end
 
-@implementation YULIBOViewController
+@implementation YLBAwemeHomeController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
+    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.whiteColor;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
     [label ylb_becomeCenterInSuperView:self.view];
     label.font = [UIFont boldSystemFontOfSize:30];

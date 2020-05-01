@@ -7,12 +7,16 @@
 //
 
 #import "YLBAwemeAppdelegate.h"
+#import "YLBAwemeHomeController.h"
 
 @implementation YLBAwemeAppdelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    YLBAwemeHomeController *vc = [[YLBAwemeHomeController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
     return YES;
 }
 

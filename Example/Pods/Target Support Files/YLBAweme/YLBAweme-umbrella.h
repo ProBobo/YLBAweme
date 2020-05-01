@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YLBAwemeHomeController.h"
 #import "YLBAweme.h"
 #import "YLBAwemeAppdelegate.h"
 
