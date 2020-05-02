@@ -18,6 +18,8 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'YLBCommon'
+#或者
+pod 'YLBCommon', :git =>'https://github.com/ProBobo/YLBCommon.git' #可以获取到最新代码
 ```
 
 ## Author

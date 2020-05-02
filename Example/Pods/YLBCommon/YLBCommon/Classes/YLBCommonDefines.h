@@ -28,6 +28,9 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 
 #endif
 
+#pragma mark - 判断系统版本
+#define YLBDeviceVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
 #pragma mark - 导航栏高度
 
 // 状态栏高度
@@ -44,6 +47,10 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define YLBDLog(...)
 #endif
 
+//防止字符串为nil
+#define YLB_PROTECT_STR(x) (x == nil ? @"" : x)
+#define YLB_CHANG_TO_STR(x) [NSString stringWithFormat:@"%@",x]
+
 #pragma mark - iPhone屏幕宽高
 // 屏幕宽度
 #define YLB_SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
@@ -56,7 +63,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 // RGBA颜色
 #define YLBRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 // 随机颜色
-#define YLBRandomColor SC_RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), 1)
+#define YLBRandomColor YLBRGBAColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), 1)
 // 十六进制颜色
 #define YLBHexColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 // 十六进制颜色，带透明值

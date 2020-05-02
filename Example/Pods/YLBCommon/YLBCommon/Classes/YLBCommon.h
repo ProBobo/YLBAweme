@@ -12,5 +12,11 @@
 #import "YLBCommonDefines.h"
 #import "UIScrollView+YLBAdjustment.h"
 #import "UIView+YLBFrame.h"
+#import "UIView+YLBCorner.h"
+#import "UIView+YLBShadow.h"
+
+#import "NSString+YLBAttribute.h"
+#import "NSString+YLBSize.h"
+#import "UIColor+YLBColor.h"
 
 #endif /* YLBCommon_h */

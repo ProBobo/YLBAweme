@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/YLBAweme.svg?style=flat)](https://cocoapods.org/pods/YLBAweme)
 
 ## 仿抖音App
-正在开发中...
+正在开发中：为了节约开发时间及提高开发效率，程序功能主要参考了GKDYVideo
 
 ## Example
 

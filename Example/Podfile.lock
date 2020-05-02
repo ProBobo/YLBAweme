@@ -5,7 +5,7 @@ PODS:
     - YLBModule
   - YLBAwemeResource (0.1.0):
     - YLBCommon
-  - YLBCommon (0.9.0)
+  - YLBCommon (1.0.0)
   - YLBModule (0.2.0)
 
 DEPENDENCIES:
@@ -29,7 +29,7 @@ CHECKOUT OPTIONS:
     :commit: 8f280016eb018b368d5aa7967d4afde25381c09d
     :git: https://github.com/YuliboTeam/YLBAwemeResource.git
   YLBCommon:
-    :commit: 72ee05ef433a79725ad7b2d5548d79bb619d051c
+    :commit: 48d1e894ea133f8ec74091a53d8d46cf32bcb42a
     :git: https://github.com/ProBobo/YLBCommon.git
   YLBModule:
     :commit: 1efdf8361ac3da8b90513a47d9024b4d360e3585
@@ -38,7 +38,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   YLBAweme: 46d4845430c8228aceaae63bb729029092b14575
   YLBAwemeResource: b81a7a82cb1fe83e612f6a8fcc45a2961ef7a7ca
-  YLBCommon: 91ccf4d00ca59a87032937a57984c9787a88efe1
+  YLBCommon: 1da4ba715aa64444554959517eb041f3d5c5cb80
   YLBModule: 18ea2d791e8e5c672bdd9f39c711234935475e7c
 
 PODFILE CHECKSUM: 6901570067b16cdfc1d2d59b8c793d1a063be386

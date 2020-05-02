@@ -7,6 +7,12 @@
 //
 
 #import "UIView+YLBFrame.h"
+#import <objc/runtime.h>
+
+static char ylb_leftSpace_key;
+static char ylb_topSpace_key;
+static char ylb_rightSpace_key;
+static char ylb_bottomSpace_key;
 
 @implementation UIView (YLBFrame)
 
@@ -60,6 +66,24 @@
 - (CGPoint)ylb_origin {
     return self.frame.origin;
 }
+#pragma mark - centerX
+- (void)setYlb_centerX:(CGFloat)ylb_centerX {
+    CGPoint center = self.center;
+    center.x = ylb_centerX;
+    self.center = center;
+}
+- (CGFloat)ylb_centerX {
+    return self.center.x;
+}
+#pragma mark - centerY
+- (void)setYlb_centerY:(CGFloat)ylb_centerY {
+    CGPoint center = self.center;
+    center.y = ylb_centerY;
+    self.center = center;
+}
+- (CGFloat)ylb_centerY {
+    return self.center.y;
+}
 #pragma mark - size
 - (void)setYlb_size:(CGSize)ylb_size {
     CGRect frame = self.frame;
@@ -70,7 +94,48 @@
 - (CGSize)ylb_size {
     return self.frame.size;
 }
-
+#pragma mark - leftSpace
+- (void)setYlb_leftSpace:(CGFloat)ylb_leftSpace {
+    objc_setAssociatedObject(self, &ylb_leftSpace_key, @(ylb_leftSpace), OBJC_ASSOCIATION_ASSIGN);
+}
+- (CGFloat)ylb_leftSpace {
+    return [objc_getAssociatedObject(self, &ylb_leftSpace_key) floatValue];
+}
+#pragma mark - topSpace
+- (void)setYlb_topSpace:(CGFloat)ylb_topSpace {
+    objc_setAssociatedObject(self, &ylb_topSpace_key, @(ylb_topSpace), OBJC_ASSOCIATION_ASSIGN);
+}
+- (CGFloat)ylb_topSpace {
+    return [objc_getAssociatedObject(self, &ylb_topSpace_key) floatValue];
+}
+#pragma mark - rightSpace
+- (void)setYlb_rightSpace:(CGFloat)ylb_rightSpace {
+    objc_setAssociatedObject(self, &ylb_rightSpace_key, @(ylb_rightSpace), OBJC_ASSOCIATION_ASSIGN);
+}
+- (CGFloat)ylb_rightSpace {
+    return [objc_getAssociatedObject(self, &ylb_rightSpace_key) floatValue];
+}
+#pragma mark - bottomSpace
+- (void)setYlb_bottomSpace:(CGFloat)ylb_bottomSpace {
+    objc_setAssociatedObject(self, &ylb_bottomSpace_key, @(ylb_bottomSpace), OBJC_ASSOCIATION_ASSIGN);
+}
+- (CGFloat)ylb_bottomSpace {
+    return [objc_getAssociatedObject(self, &ylb_bottomSpace_key) floatValue];
+}
+#pragma mark - maxX
+- (void)setYlb_maxX:(CGFloat)ylb_maxX {
+    
+}
+- (CGFloat)ylb_maxX {
+    return CGRectGetMaxX(self.frame);
+}
+#pragma mark - maxY
+- (void)setYlb_maxY:(CGFloat)ylb_maxY {
+    
+}
+- (CGFloat)ylb_maxY {
+    return CGRectGetMaxY(self.frame);
+}
 #pragma mark - 居中
 
 - (void)ylb_becomeCenterInSuperView:(UIView *)superView {
