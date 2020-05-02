@@ -10,9 +10,18 @@
 #endif
 #endif
 
+#import "YLBAwemeAttentController.h"
 #import "YLBAwemeBaseController.h"
 #import "YLBAwemeUINavigationBar.h"
+#import "YLBAwemeScrollView.h"
 #import "YLBAwemeHomeController.h"
+#import "YLBAwemeMainTabBarController.h"
+#import "YLBAwemePlayController.h"
+#import "YLBAwemeSearchController.h"
+#import "GKDYNavigationController.h"
+#import "GKDYTabBar.h"
+#import "YLBAwemeMessageController.h"
+#import "YLBAwemeMineController.h"
 #import "YLBAweme.h"
 #import "YLBAwemeAppdelegate.h"
 

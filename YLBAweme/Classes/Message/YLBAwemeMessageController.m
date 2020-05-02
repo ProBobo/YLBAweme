@@ -1,25 +1,22 @@
 //
-//  YLBAwemeBaseController.m
+//  YLBAwemeMessageController.m
 //  YLBAweme_Example
 //
 //  Created by yulibo on 2020/5/2.
 //  Copyright © 2020 余礼钵. All rights reserved.
 //
 
-#import "YLBAwemeBaseController.h"
+#import "YLBAwemeMessageController.h"
 
-@interface YLBAwemeBaseController ()
+@interface YLBAwemeMessageController ()
 
 @end
 
-@implementation YLBAwemeBaseController
+@implementation YLBAwemeMessageController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = UIColor.blackColor;
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
-    self.gk_navigationBar.hidden = YES;
 }
 
 /*

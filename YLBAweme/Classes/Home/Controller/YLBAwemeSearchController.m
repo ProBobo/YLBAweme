@@ -1,24 +1,26 @@
 //
-//  YLBAwemeBaseController.m
+//  YLBAwemeSearchController.m
 //  YLBAweme_Example
 //
 //  Created by yulibo on 2020/5/2.
 //  Copyright © 2020 余礼钵. All rights reserved.
 //
 
-#import "YLBAwemeBaseController.h"
+#import "YLBAwemeSearchController.h"
 
-@interface YLBAwemeBaseController ()
+@interface YLBAwemeSearchController ()
 
 @end
 
-@implementation YLBAwemeBaseController
+@implementation YLBAwemeSearchController
+
+- (void)loadView {
+    self.view = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"WechatIMG240"]];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = UIColor.blackColor;
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
     self.gk_navigationBar.hidden = YES;
 }
 
