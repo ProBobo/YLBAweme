@@ -1,5 +1,5 @@
 //
-//  YLBAwemeHomeController.h
+//  YLBAwemeBaseController.h
 //  YLBAweme_Example
 //
 //  Created by yulibo on 2020/5/2.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YLBAwemeBaseController.h"
+#import <GKNavigationBarViewController/GKNavigationBarViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YLBAwemeHomeController : YLBAwemeBaseController
+@interface YLBAwemeBaseController : GKNavigationBarViewController
 
 @end
 

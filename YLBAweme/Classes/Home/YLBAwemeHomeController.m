@@ -21,6 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = UIColor.blackColor;
     [self.navigationController setNavigationBarHidden:YES animated:NO];
+    self.gk_navigationBar.hidden = YES;
+    
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
     [label ylb_becomeCenterInSuperView:self.view];
     label.font = [UIFont boldSystemFontOfSize:30];

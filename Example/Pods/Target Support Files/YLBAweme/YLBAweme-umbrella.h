@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YLBAwemeBaseController.h"
 #import "YLBAwemeUINavigationBar.h"
 #import "YLBAwemeHomeController.h"
 #import "YLBAweme.h"
