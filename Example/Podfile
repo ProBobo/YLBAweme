@@ -10,6 +10,7 @@ target 'YLBAweme_Example' do
   pod 'YLBModule', :git => 'https://github.com/ProBobo/YLBModule.git'
   #资源库
   pod 'YLBAwemeResource', :git => 'https://github.com/YuliboTeam/YLBAwemeResource.git'
+  
   target 'YLBAweme_Tests' do
     inherit! :search_paths
 
