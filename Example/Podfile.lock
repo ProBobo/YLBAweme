@@ -1,20 +1,68 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - GKNavigationBarViewController (2.4.7)
+  - GKPageScrollView (1.3.5)
+  - JXCategoryView (1.5.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.4.1)
+  - SDWebImage (5.7.1):
+    - SDWebImage/Core (= 5.7.1)
+  - SDWebImage/Core (5.7.1)
   - YLBAweme (0.1.0):
+    - AFNetworking
+    - GKNavigationBarViewController
+    - GKPageScrollView
+    - JXCategoryView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
     - YLBAwemeResource
     - YLBCommon
     - YLBModule
+    - YYModel
   - YLBAwemeResource (0.1.0):
     - YLBCommon
   - YLBCommon (1.0.0)
   - YLBModule (0.2.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - GKPageScrollView (from `https://github.com/QuintGao/GKPageScrollView.git`)
   - YLBAweme (from `../`)
   - YLBAwemeResource (from `https://github.com/YuliboTeam/YLBAwemeResource.git`)
   - YLBCommon (from `https://github.com/ProBobo/YLBCommon.git`)
   - YLBModule (from `https://github.com/ProBobo/YLBModule.git`)
 
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - GKNavigationBarViewController
+    - JXCategoryView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - YYModel
+
 EXTERNAL SOURCES:
+  GKPageScrollView:
+    :git: https://github.com/QuintGao/GKPageScrollView.git
   YLBAweme:
     :path: "../"
   YLBAwemeResource:
@@ -25,6 +73,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/ProBobo/YLBModule.git
 
 CHECKOUT OPTIONS:
+  GKPageScrollView:
+    :commit: 74c1de9995676bbbd3e342d77a7e9646f886eb99
+    :git: https://github.com/QuintGao/GKPageScrollView.git
   YLBAwemeResource:
     :commit: 8f280016eb018b368d5aa7967d4afde25381c09d
     :git: https://github.com/YuliboTeam/YLBAwemeResource.git
@@ -36,11 +87,20 @@ CHECKOUT OPTIONS:
     :git: https://github.com/ProBobo/YLBModule.git
 
 SPEC CHECKSUMS:
-  YLBAweme: 46d4845430c8228aceaae63bb729029092b14575
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  GKNavigationBarViewController: 41956b6ac99c412d55c1a04b453967f0b6f1f55a
+  GKPageScrollView: 877e8fa69e51f0d18786ed8adde015b7153d90d2
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  SDWebImage: 5d4cf6afccd9ac1d2ee701ed0c4917cbb1b80536
+  YLBAweme: 3c6b2e44a7d6d8582166e4c8256e872c8e99c305
   YLBAwemeResource: b81a7a82cb1fe83e612f6a8fcc45a2961ef7a7ca
   YLBCommon: 1da4ba715aa64444554959517eb041f3d5c5cb80
   YLBModule: 18ea2d791e8e5c672bdd9f39c711234935475e7c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 6901570067b16cdfc1d2d59b8c793d1a063be386
+PODFILE CHECKSUM: 1c1601479672855b323d5982b2cd17d34dab0aaf
 
 COCOAPODS: 1.9.1

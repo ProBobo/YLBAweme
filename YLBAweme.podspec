@@ -42,4 +42,16 @@ TODO: Add long description of the pod here.
   s.dependency 'YLBCommon'
   s.dependency 'YLBModule'
   s.dependency 'YLBAwemeResource'
+  
+  s.dependency 'AFNetworking'
+  s.dependency 'SDWebImage'
+  s.dependency 'Masonry'
+  s.dependency 'YYModel'
+  s.dependency 'GKNavigationBarViewController'
+  s.dependency 'MJRefresh'
+  s.dependency 'GKPageScrollView'
+  s.dependency 'JXCategoryView'
+  
+  s.dependency 'MJExtension'
+  
 end
